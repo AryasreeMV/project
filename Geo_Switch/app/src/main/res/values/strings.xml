@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Geo_Switch</string>
+    <string name="geoswitch">GEOSWITCH</string>
+    <string name="title_activity_white__list">White_List</string>
+    <string name="title_activity_dis__white">Dis_White</string>
+    <string name="title_activity_dis__black">Dis_Black</string>
+    <string name="title_activity_auto_sms">AutoSMS</string>
+</resources>

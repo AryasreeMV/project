@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Black_List">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="305dp"
+        android:layout_height="54dp"
+        android:text="Add the numbers you want to block"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="NEXT"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="163dp"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:text="ADD"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="248dp"
+        android:layout_height="440dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="111dp"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
